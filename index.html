@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TradUser – Traduzioni e ripetizioni online</title>
+<meta name="description" content="Traduzioni su commissione e ripetizioni online di inglese, spagnolo e portoghese. Michele Abbatantuono.">
+<meta name="theme-color" content="#0F1B2D">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F1B2D'/%3E%3Ctext x='32' y='45' font-size='36' font-family='Arial' font-weight='700' text-anchor='middle' fill='%23F2A900'%3ET%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#F2A900}
+html{scroll-padding-top:72px}
+body{margin:0}
+html{scroll-behavior:smooth}
+a{color:inherit;text-decoration:none}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes float{from{transform:translateY(0)}to{transform:translateY(-8px)}}
+@keyframes slide{to{transform:translateX(-50%)}}
+.rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.d2{animation-delay:.24s}.d3{animation-delay:.38s}.d4{animation-delay:.52s}
+.chip{animation:rise .9s cubic-bezier(.2,.7,.2,1) both,float 3.2s ease-in-out 1s infinite alternate}
+.c2{animation-delay:.12s,1.4s}.c3{animation-delay:.24s,1.6s}
+.marquee{display:inline-block;animation:slide 28s linear infinite}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+.btnA,.btnO{display:inline-block;padding:16px 28px;border-radius:10px;max-width:100%;overflow-wrap:anywhere;transition:transform .25s,box-shadow .25s}
+.btnA{background:var(--accent);color:#0F1B2D;font-weight:600}
+.btnO{border:1px solid currentColor}
+.btnA:hover,.btnO:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.card{background:#fff;border-radius:18px;padding:36px;display:flex;flex-direction:column;gap:14px;transition:transform .3s,box-shadow .3s}
+.card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(15,27,45,.12)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#9A6A00}
+.h2{margin:0;font-size:38px;line-height:1.2}
+.lang{font:inherit;font-size:13px;font-weight:700;color:#C9D3E3;background:transparent;border:1px solid #3A4A66;border-radius:8px;padding:6px 10px;cursor:pointer;transition:all .2s}
+.lang:hover{border-color:var(--accent);color:#fff}
+.lang.on{background:var(--accent);color:#0F1B2D;border-color:var(--accent)}
+details{background:#fff;border-radius:14px;padding:20px 24px}
+summary{cursor:pointer;font-weight:600;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:#5B6B85}
+details[open] summary::after{content:"–"}
+details p{margin:12px 0 0;color:#44546F}
+.avatar{width:280px;height:280px;border-radius:50%;overflow:hidden;box-shadow:14px 14px 0 var(--accent);flex:none}
+@supports (animation-timeline:view()){.reveal{animation:rise linear backwards;animation-timeline:view();animation-range:entry 0% entry 45%}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media (max-width:760px){.topnav{position:static!important}}
+</style>
+</head>
+<body>
+<div style="font-family: 'Sora', 'Helvetica Neue', sans-serif; color: #0F1B2D; background: #F4F6FA; line-height: 1.6">
+
+<div class="topnav" style="position: sticky; top: 0; z-index: 10; background: #0F1B2D; color: #FFFFFF; border-bottom: 1px solid #1E2D47">
+<div class="wrap" style="padding-top: 14px; padding-bottom: 14px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px">
+<a href="#top" style="font-weight: 700; font-size: 20px">Trad<span style="color: var(--accent)">User</span></a>
+<div style="display: flex; flex-wrap: wrap; gap: 22px; font-size: 15px">
+<a href="#chi-sono" data-i="nAbout">Chi sono</a>
+<a href="#servizi" data-i="nServ">Servizi</a>
+<a href="#metodo" data-i="nHow">Come lavoro</a>
+<a href="#faq">FAQ</a>
+<a href="#contatti" data-i="nCont">Contatti</a>
+</div>
+<div role="group" aria-label="Language" style="display: flex; gap: 6px">
+<button class="lang on" data-lang="it" aria-label="Italiano" aria-pressed="true">IT</button>
+<button class="lang" data-lang="en" aria-label="English" aria-pressed="false">EN</button>
+<button class="lang" data-lang="es" aria-label="Español" aria-pressed="false">ES</button>
+<button class="lang" data-lang="pt" aria-label="Português" aria-pressed="false">PT</button>
+</div>
+</div>
+</div>
+
+<div style="background: radial-gradient(900px 420px at 85% 15%, rgba(242,169,0,.2), transparent 60%), #0F1B2D; color: #FFFFFF">
+<div id="top" class="wrap" style="padding-top: 64px; padding-bottom: 104px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<span style="padding: 6px 16px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent); font-size: 14px" class="chip">English</span>
+<span style="padding: 6px 16px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent); font-size: 14px" class="chip c2">Español</span>
+<span style="padding: 6px 16px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent); font-size: 14px" class="chip c3">Português</span>
+</div>
+<h1 class="rise d2" style="margin: 0; font-size: clamp(56px, 14vw, 104px); line-height: 1; letter-spacing: -0.03em">Trad<span style="color: var(--accent)">User</span></h1>
+<p class="rise d3" style="margin: 0; font-size: 22px; max-width: 680px; color: #C9D3E3" data-i="tag">Traduzioni su commissione e ripetizioni online di inglese, spagnolo e portoghese.</p>
+<div class="rise d4" style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px">
+<a class="btnA" href="mailto:micheleabbatantuono1100@gmail.com?subject=Richiesta%20di%20traduzione" data-subj="subjT" data-i="cta1">Richiedi una traduzione</a>
+<a class="btnO" href="mailto:micheleabbatantuono1100@gmail.com?subject=Ripetizioni%20online" data-subj="subjR" data-i="cta2">Prenota una ripetizione</a>
+</div>
+</div>
+</div>
+
+<div style="background: var(--accent); color: #0F1B2D; overflow: hidden; white-space: nowrap; padding: 14px 0; font-weight: 700; font-size: 18px"><div class="marquee"><span style="padding-right: 32px">Hello · Hola · Olá · Ciao · Translation · Traducción · Tradução · Lessons · Clases · Aulas ·</span><span style="padding-right: 32px">Hello · Hola · Olá · Ciao · Translation · Traducción · Tradução · Lessons · Clases · Aulas ·</span></div></div>
+
+<div id="chi-sono" class="wrap" style="padding-top: 96px; padding-bottom: 40px; display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
+<div class="avatar reveal"><img src="avatar.webp" alt="Michele Abbatantuono" width="280" height="280" style="display: block; width: 100%; height: 100%; object-fit: cover"></div>
+<div class="reveal" style="flex: 1 1 380px; display: flex; flex-direction: column; gap: 16px">
+<div class="eyebrow" data-i="aboutEy">Chi sono</div>
+<h2 class="h2" data-i="aboutH">Ciao, sono Michele Abbatantuono</h2>
+<p style="margin: 0; font-size: 18px; color: #44546F" data-i="aboutP">Ho 22 anni e mi occupo di traduzione e insegnamento di inglese, spagnolo e portoghese. Voglio che ogni testo suoni naturale nella lingua di arrivo e che ogni lezione parta da ciò che ti serve davvero.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px">
+<div style="flex: 1 1 180px; background: #fff; border-radius: 14px; padding: 18px 20px"><div style="font-weight: 700" data-i="deg">Laureato in L-12</div><div style="font-size: 14px; color: #5B6B85" data-i="degS">Mediazione linguistica</div></div>
+<div style="flex: 1 1 180px; background: #fff; border-radius: 14px; padding: 18px 20px"><div style="font-weight: 700" data-i="goal">Prossimo obiettivo</div><div style="font-size: 14px; color: #5B6B85" data-i="goalS">Specializzazione in Traduzione Specialistica</div></div>
+</div>
+</div>
+</div>
+
+<div id="servizi" class="wrap" style="padding-top: 88px; padding-bottom: 40px; display: flex; flex-direction: column; gap: 32px">
+<div><div class="eyebrow" data-i="nServ">Servizi</div><h2 class="h2" data-i="svH">Cosa posso fare per te</h2></div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+<div class="card reveal" style="flex: 1 1 340px"><h3 style="margin: 0; font-size: 24px" data-i="s1h">Traduzioni su commissione</h3><p style="margin: 0" data-i="s1a">Da inglese, spagnolo e portoghese all'italiano, e viceversa.</p><p style="margin: 0; color: #44546F" data-i="s1b">Documenti, contenuti web e social, testi accademici. Il preventivo è su misura per ogni testo.</p></div>
+<div class="card reveal" style="flex: 1 1 340px"><h3 style="margin: 0; font-size: 24px" data-i="s2h">Ripetizioni online</h3><p style="margin: 0" data-i="s2a">Lezioni individuali a distanza.</p><p style="margin: 0; color: #44546F" data-i="s2b">Grammatica, conversazione, supporto allo studio e agli esami, a partire dal tuo livello.</p></div>
+</div>
+</div>
+
+<div id="metodo" class="wrap" style="padding-top: 72px; padding-bottom: 40px; display: flex; flex-direction: column; gap: 32px">
+<div><div class="eyebrow" data-i="nHow">Come lavoro</div><h2 class="h2" data-i="hwH">Tre passi, niente complicazioni</h2></div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+<div class="reveal" style="flex: 1 1 240px; border-top: 4px solid var(--accent); padding-top: 16px"><div style="font-size: 14px; font-weight: 700; color: #5B6B85">01</div><h3 style="margin: 4px 0 8px; font-size: 20px" data-i="st1h">Mi scrivi</h3><p style="margin: 0; color: #44546F" data-i="st1p">Mi racconti il testo o cosa vuoi imparare.</p></div>
+<div class="reveal" style="flex: 1 1 240px; border-top: 4px solid var(--accent); padding-top: 16px"><div style="font-size: 14px; font-weight: 700; color: #5B6B85">02</div><h3 style="margin: 4px 0 8px; font-size: 20px" data-i="st2h">Concordiamo tutto</h3><p style="margin: 0; color: #44546F" data-i="st2p">Preventivo e tempi chiari, o un piano di lezioni su misura.</p></div>
+<div class="reveal" style="flex: 1 1 240px; border-top: 4px solid var(--accent); padding-top: 16px"><div style="font-size: 14px; font-weight: 700; color: #5B6B85">03</div><h3 style="margin: 4px 0 8px; font-size: 20px" data-i="st3h">Consegno e rifinisco</h3><p style="margin: 0; color: #44546F" data-i="st3p">Se qualcosa non ti convince, lo sistemiamo insieme.</p></div>
+</div>
+</div>
+
+<div id="faq" class="wrap" style="padding-top: 72px; padding-bottom: 88px; display: flex; flex-direction: column; gap: 24px; max-width: 880px">
+<div><div class="eyebrow">FAQ</div><h2 class="h2" data-i="faqH">Domande frequenti</h2></div>
+<details class="reveal"><summary data-i="q1">Con quali lingue lavori?</summary><p data-i="a1">Inglese, spagnolo e portoghese, da e verso l'italiano.</p></details>
+<details class="reveal"><summary data-i="q2">Quanto costa?</summary><p data-i="a2">Dipende dal testo o dal percorso. Scrivimi e ti preparo una proposta su misura.</p></details>
+<details class="reveal"><summary data-i="q3">Come si svolgono le ripetizioni?</summary><p data-i="a3">Online, in lezioni individuali. Orari e piattaforma si concordano insieme.</p></details>
+<details class="reveal"><summary data-i="q4">Come ti invio un testo?</summary><p data-i="a4">Basta una mail con il testo o il file in allegato: ti rispondo con tempi e preventivo.</p></details>
+</div>
+
+<div id="contatti" style="background: #0F1B2D; color: #FFFFFF">
+<div class="wrap" style="padding-top: 80px; padding-bottom: 80px; display: flex; flex-direction: column; gap: 20px">
+<h2 class="h2 reveal" data-i="ctH">Parliamone</h2>
+<p style="margin: 0; max-width: 560px; color: #C9D3E3" data-i="ctP">Scrivimi due righe su cosa ti serve: ti rispondo con un preventivo o una proposta di lezione.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 16px">
+<a class="btnA" href="mailto:micheleabbatantuono1100@gmail.com">micheleabbatantuono1100@gmail.com</a>
+<a class="btnO" href="tel:+393401953683">+39 340 195 3683</a>
+</div>
+</div>
+</div>
+
+<div class="wrap" style="padding-top: 28px; padding-bottom: 28px; font-size: 14px; color: #5B6B85">© 2026 TradUser · Michele Abbatantuono</div>
+
+</div>
+<script>
+const TX = {
+it: {nAbout:"Chi sono",nServ:"Servizi",nHow:"Come lavoro",nCont:"Contatti",
+tag:"Traduzioni su commissione e ripetizioni online di inglese, spagnolo e portoghese.",cta1:"Richiedi una traduzione",cta2:"Prenota una ripetizione",
+aboutEy:"Chi sono",aboutH:"Ciao, sono Michele Abbatantuono",aboutP:"Ho 22 anni e mi occupo di traduzione e insegnamento di inglese, spagnolo e portoghese. Voglio che ogni testo suoni naturale nella lingua di arrivo e che ogni lezione parta da ciò che ti serve davvero.",
+deg:"Laureato in L-12",degS:"Mediazione linguistica",goal:"Prossimo obiettivo",goalS:"Specializzazione in Traduzione Specialistica",
+svH:"Cosa posso fare per te",s1h:"Traduzioni su commissione",s1a:"Da inglese, spagnolo e portoghese all'italiano, e viceversa.",s1b:"Documenti, contenuti web e social, testi accademici. Il preventivo è su misura per ogni testo.",
+s2h:"Ripetizioni online",s2a:"Lezioni individuali a distanza.",s2b:"Grammatica, conversazione, supporto allo studio e agli esami, a partire dal tuo livello.",
+hwH:"Tre passi, niente complicazioni",st1h:"Mi scrivi",st1p:"Mi racconti il testo o cosa vuoi imparare.",st2h:"Concordiamo tutto",st2p:"Preventivo e tempi chiari, o un piano di lezioni su misura.",st3h:"Consegno e rifinisco",st3p:"Se qualcosa non ti convince, lo sistemiamo insieme.",
+faqH:"Domande frequenti",q1:"Con quali lingue lavori?",a1:"Inglese, spagnolo e portoghese, da e verso l'italiano.",q2:"Quanto costa?",a2:"Dipende dal testo o dal percorso. Scrivimi e ti preparo una proposta su misura.",q3:"Come si svolgono le ripetizioni?",a3:"Online, in lezioni individuali. Orari e piattaforma si concordano insieme.",q4:"Come ti invio un testo?",a4:"Basta una mail con il testo o il file in allegato: ti rispondo con tempi e preventivo.",
+ctH:"Parliamone",ctP:"Scrivimi due righe su cosa ti serve: ti rispondo con un preventivo o una proposta di lezione.",subjT:"Richiesta di traduzione",subjR:"Ripetizioni online"},
+en: {nAbout:"About me",nServ:"Services",nHow:"How I work",nCont:"Contact",
+tag:"Commissioned translations and online tutoring in English, Spanish and Portuguese.",cta1:"Request a translation",cta2:"Book a lesson",
+aboutEy:"About me",aboutH:"Hi, I'm Michele Abbatantuono",aboutP:"I'm 22 and I work in translation and in teaching English, Spanish and Portuguese. I want every text to sound natural in the target language and every lesson to start from what you really need.",
+deg:"Graduate in L-12",degS:"Linguistic mediation",goal:"Next goal",goalS:"Specialisation in Specialised Translation",
+svH:"What I can do for you",s1h:"Commissioned translations",s1a:"From English, Spanish and Portuguese into Italian, and back.",s1b:"Documents, web and social content, academic texts. Quotes are tailored to each text.",
+s2h:"Online tutoring",s2a:"One-to-one remote lessons.",s2b:"Grammar, conversation, study and exam support, starting from your level.",
+hwH:"Three steps, no fuss",st1h:"You write to me",st1p:"Tell me about the text or what you want to learn.",st2h:"We agree on everything",st2p:"A clear quote and timing, or a tailored lesson plan.",st3h:"I deliver and refine",st3p:"If anything doesn't convince you, we fix it together.",
+faqH:"Frequently asked questions",q1:"Which languages do you work with?",a1:"English, Spanish and Portuguese, into and from Italian.",q2:"How much does it cost?",a2:"It depends on the text or the course. Write to me and I'll prepare a tailored proposal.",q3:"How do the lessons work?",a3:"Online, one-to-one. We agree on schedule and platform together.",q4:"How do I send you a text?",a4:"Just email the text or attach the file: I'll reply with timing and a quote.",
+ctH:"Let's talk",ctP:"Send me a couple of lines about what you need: I'll reply with a quote or a lesson proposal.",subjT:"Translation request",subjR:"Online tutoring"},
+es: {nAbout:"Quién soy",nServ:"Servicios",nHow:"Cómo trabajo",nCont:"Contacto",
+tag:"Traducciones por encargo y clases particulares online de inglés, español y portugués.",cta1:"Solicitar una traducción",cta2:"Reservar una clase",
+aboutEy:"Quién soy",aboutH:"Hola, soy Michele Abbatantuono",aboutP:"Tengo 22 años y me dedico a la traducción y a la enseñanza de inglés, español y portugués. Quiero que cada texto suene natural en el idioma de llegada y que cada clase parta de lo que realmente necesitas.",
+deg:"Graduado en L-12",degS:"Mediación lingüística",goal:"Próximo objetivo",goalS:"Especialización en Traducción Especializada",
+svH:"Qué puedo hacer por ti",s1h:"Traducciones por encargo",s1a:"Del inglés, español y portugués al italiano, y viceversa.",s1b:"Documentos, contenidos web y redes sociales, textos académicos. El presupuesto se ajusta a cada texto.",
+s2h:"Clases online",s2a:"Clases individuales a distancia.",s2b:"Gramática, conversación, apoyo al estudio y a los exámenes, desde tu nivel.",
+hwH:"Tres pasos, sin complicaciones",st1h:"Me escribes",st1p:"Cuéntame el texto o lo que quieres aprender.",st2h:"Acordamos todo",st2p:"Presupuesto y plazos claros, o un plan de clases a medida.",st3h:"Entrego y pulo",st3p:"Si algo no te convence, lo arreglamos juntos.",
+faqH:"Preguntas frecuentes",q1:"¿Con qué idiomas trabajas?",a1:"Inglés, español y portugués, desde y hacia el italiano.",q2:"¿Cuánto cuesta?",a2:"Depende del texto o del curso. Escríbeme y te preparo una propuesta a medida.",q3:"¿Cómo son las clases?",a3:"Online e individuales. Acordamos horarios y plataforma juntos.",q4:"¿Cómo te envío un texto?",a4:"Basta un correo con el texto o el archivo adjunto: te respondo con plazos y presupuesto.",
+ctH:"Hablemos",ctP:"Escríbeme unas líneas sobre lo que necesitas: te respondo con un presupuesto o una propuesta de clase.",subjT:"Solicitud de traducción",subjR:"Clases online"},
+pt: {nAbout:"Quem sou",nServ:"Serviços",nHow:"Como trabalho",nCont:"Contacto",
+tag:"Traduções por encomenda e aulas particulares online de inglês, espanhol e português.",cta1:"Pedir uma tradução",cta2:"Marcar uma aula",
+aboutEy:"Quem sou",aboutH:"Olá, sou o Michele Abbatantuono",aboutP:"Tenho 22 anos e dedico-me à tradução e ao ensino de inglês, espanhol e português. Quero que cada texto soe natural na língua de chegada e que cada aula parta do que realmente precisas.",
+deg:"Licenciado em L-12",degS:"Mediação linguística",goal:"Próximo objetivo",goalS:"Especialização em Tradução Especializada",
+svH:"O que posso fazer por ti",s1h:"Traduções por encomenda",s1a:"Do inglês, espanhol e português para o italiano, e vice-versa.",s1b:"Documentos, conteúdos web e redes sociais, textos académicos. O orçamento é feito à medida de cada texto.",
+s2h:"Aulas online",s2a:"Aulas individuais à distância.",s2b:"Gramática, conversação, apoio ao estudo e aos exames, a partir do teu nível.",
+hwH:"Três passos, sem complicações",st1h:"Escreves-me",st1p:"Conta-me o texto ou o que queres aprender.",st2h:"Combinamos tudo",st2p:"Orçamento e prazos claros, ou um plano de aulas à medida.",st3h:"Entrego e aperfeiçoo",st3p:"Se algo não te convencer, resolvemos juntos.",
+faqH:"Perguntas frequentes",q1:"Com que línguas trabalhas?",a1:"Inglês, espanhol e português, para e a partir do italiano.",q2:"Quanto custa?",a2:"Depende do texto ou do percurso. Escreve-me e preparo uma proposta à medida.",q3:"Como funcionam as aulas?",a3:"Online e individuais. Combinamos horários e plataforma em conjunto.",q4:"Como te envio um texto?",a4:"Basta um e-mail com o texto ou o ficheiro em anexo: respondo com prazos e orçamento.",
+ctH:"Vamos falar",ctP:"Escreve-me duas linhas sobre o que precisas: respondo com um orçamento ou uma proposta de aula.",subjT:"Pedido de tradução",subjR:"Aulas online"}
+};
+const MAIL = "mailto:micheleabbatantuono1100@gmail.com?subject=";
+const LANGS = ["it","en","es","pt"];
+function setLang(l){
+  const t = TX[l];
+  document.documentElement.lang = l;
+  document.querySelectorAll("[data-i]").forEach(function(e){ e.textContent = t[e.dataset.i]; });
+  document.querySelectorAll("[data-subj]").forEach(function(e){ e.href = MAIL + encodeURIComponent(t[e.dataset.subj]); });
+  document.querySelectorAll(".lang").forEach(function(b){
+    var on = b.dataset.lang === l;
+    b.classList.toggle("on", on);
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  try { localStorage.setItem("lang", l); } catch (e) {}
+}
+document.querySelectorAll(".lang").forEach(function(b){ b.addEventListener("click", function(){ setLang(b.dataset.lang); }); });
+var saved = null;
+try { saved = localStorage.getItem("lang"); } catch (e) {}
+var nav = (navigator.language || "it").slice(0, 2).toLowerCase();
+setLang(TX[saved] ? saved : (TX[nav] ? nav : "it"));
+</script>
+</body>
+</html>
